@@ -151,7 +151,7 @@ class CandidateSetBlockbuilder:
 
     def generate_block_template(self):
         # Construct the file path with a streamlined approach
-        file_path = f"./solution/block.txt"
+        file_path = f"block.txt"
         with open(file_path, "w") as file:
 
             # Directly proceed to write transaction IDs if any are selected
